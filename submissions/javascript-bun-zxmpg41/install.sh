@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # Runs once as root on a clean Ubuntu 24.04: installs a pinned Bun from the official release zip.
 set -euo pipefail
-BUN_VERSION=1.4.3
+BUN_VERSION=1.4.4
 export DEBIAN_FRONTEND=noninteractive
 apt-get update
 apt-get install -y --no-install-recommends ca-certificates curl unzip
